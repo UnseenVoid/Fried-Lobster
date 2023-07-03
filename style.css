@@ -62,7 +62,7 @@ body {
 .about-button a:hover {
     font-size: 1.2em;
     background-image: linear-gradient(to right, blue, red, blue, red, blue, red);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 10s linear infinite;
     background-size: 1000%;
@@ -75,7 +75,7 @@ body {
 
 .rainbow-text {
     background-image: linear-gradient(to right, blue, pink, purple, blue, pink, purple, blue, pink, purple, blue, pink, purple, blue, pink, purple, blue, pink, purple, blue, pink, purple);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 140s linear infinite;
     background-size: 1000%;
@@ -102,6 +102,24 @@ body {
     margin-top: 10vh;
     padding: 20px;
     padding-left: 40px;
-    background-color: pink;
+    height: 90vh;
+    /* background-color: pink; */
     /* color: white; */
+}
+
+.second {
+    margin-top: 10vh;
+}
+
+.second h1 {
+    font-size: 4em;
+}
+
+.rainbow-text2 {
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, blue, rgb(223, 50, 223), blue, rgb(223, 50, 223), blue, rgb(223, 50, 223), blue, rgb(223, 50, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 20s linear infinite;
+    background-size: 1000%;
 }
