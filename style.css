@@ -1,0 +1,107 @@
+* {
+    font-family: 'Lexend', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav {
+    display: flex;
+    border: 1px solid black;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    box-shadow: 6px 6px;
+    padding-left: 15px;
+    position: sticky;
+    top: 2vh;
+    background-color: white;
+}
+
+.nav a {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2vw;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.container {
+    margin: auto;
+}
+
+.about {
+    display: flex;
+    margin-top: 25vh;
+    margin-bottom: 5vh;
+}
+
+.about-button {
+    margin-bottom: 25vh;
+    display: flex;
+}
+
+.about-button a {
+    margin: auto;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid;
+    padding: 2vh;
+    box-shadow: 6px 6px;
+    transition: 0.3s;
+}
+
+.about-button a:hover {
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, blue, red, blue, red, blue, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 10s linear infinite;
+    background-size: 1000%;
+}
+
+.about h1 {
+    margin: auto;
+    font-size: 4.5em;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to right, blue, pink, purple, blue, pink, purple, blue, pink, purple, blue, pink, purple, blue, pink, purple, blue, pink, purple, blue, pink, purple);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 140s linear infinite;
+    background-size: 1000%;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 100%;
+    }
+
+    50% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+.first {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5vh;
+    margin-top: 10vh;
+    padding: 20px;
+    padding-left: 40px;
+    background-color: pink;
+    /* color: white; */
+}
