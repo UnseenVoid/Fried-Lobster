@@ -9,21 +9,21 @@ body {
 .nav {
     display: flex;
     border: 1px solid black;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 2vh;
-    box-shadow: 6px 6px;
-    padding-left: 15px;
-    position: sticky;
-    top: 2vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+    box-shadow: 0.4rem 0.4rem;
+    padding-left: 3rem;
+    /* position: sticky;
+    top: 1.5rem; */
     background-color: white;
 }
 
 .nav a {
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 2vw;
-    font-size: 1em;
+    margin-left: 2rem;
+    font-size: 1rem;
     text-decoration: none;
     color: #000;
     transition: 0.3s;
@@ -39,28 +39,27 @@ body {
 
 .about {
     display: flex;
-    margin-top: 25vh;
-    margin-bottom: 5vh;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
 
 .about-button {
-    margin-bottom: 25vh;
     display: flex;
 }
 
 .about-button a {
     margin: auto;
-    font-size: 1em;
+    font-size: 1rem;
     text-decoration: none;
     color: #000;
     border: 1px solid;
-    padding: 2vh;
-    box-shadow: 6px 6px;
+    padding: 0.9rem;
+    box-shadow: 0.4rem 0.4rem;
     transition: 0.3s;
 }
 
 .about-button a:hover {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     background-image: linear-gradient(to right, blue, red, blue, red, blue, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -70,7 +69,7 @@ body {
 
 .about h1 {
     margin: auto;
-    font-size: 4.5em;
+    font-size: 4.6rem;
 }
 
 .rainbow-text {
@@ -95,31 +94,67 @@ body {
     }
 }
 
-.first {
-    border: 1px solid black;
+.first,
+.third {
+    border: 2px solid black;
     border-radius: 10px;
-    margin: 5vh;
-    margin-top: 10vh;
-    padding: 20px;
-    padding-left: 40px;
-    height: 90vh;
-    /* background-color: pink; */
-    /* color: white; */
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 8rem;
+    padding: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    ;
 }
 
-.second {
-    margin-top: 10vh;
+.rainbow-text2 {
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, blue, rgb(223, 50, 223), indigo, blue, rgb(223, 50, 223), indigo, blue, rgb(223, 50, 223), indigo, blue, rgb(223, 50, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 60s linear infinite;
+    background-size: 1000%;
 }
 
 .second h1 {
     font-size: 4em;
 }
 
-.rainbow-text2 {
-    font-size: 1.2em;
-    background-image: linear-gradient(to right, blue, rgb(223, 50, 223), blue, rgb(223, 50, 223), blue, rgb(223, 50, 223), blue, rgb(223, 50, 223));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 20s linear infinite;
-    background-size: 1000%;
+.x3 {
+    display: flex;
+    width: 80rem;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.x2 {
+    display: flex;
+    border: 1px solid;
+    /* border-radius: 10px; */
+    margin: auto;
+    width: 20rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    box-shadow: 6px 6px;
+}
+
+.x2 a {
+    margin: auto;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+
+.x2 a:hover {
+    font-size: 2rem;
+}
+
+.third-p {
+    border-right: 2px solid #000;
+    width: 37rem;
+}
+
+.third-p td {
+    padding-left: 4rem;
+    font-size: 1.5rem;
 }
