@@ -103,8 +103,7 @@ body {
     margin-top: 8rem;
     padding: 3rem;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    ;
+    padding-bottom: 1rem;
 }
 
 .rainbow-text2 {
@@ -149,12 +148,39 @@ body {
     font-size: 2rem;
 }
 
-.third-p {
-    border-right: 2px solid #000;
-    width: 37rem;
+.third {
+    padding-top: 1rem;
 }
 
-.third-p td {
-    padding-left: 4rem;
+.cc table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.cc th,
+.cc td {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.cc th {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.lcc {
+    text-align: center;
+}
+
+.re-c {
+    margin: auto;
+    color: black;
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 6px;
     font-size: 1.5rem;
 }
+
